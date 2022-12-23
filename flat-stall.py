@@ -37,7 +37,11 @@ while (True):
     elif ch == 8:
         os.system('flatpak install flathub com.raggesilver.BlackBox')
     elif ch == 10:
-        os.system('flatpak install flathub com.github.GradienceTeam.Gradience')
+        os.system('sudo sh -c 'echo "fastestmirror=True" >>/etc/dnf/dnf.conf'')
+        0
+        os.system('sudo sh -c 'echo "max_parallel_downloads=10" >>/etc/dnf/dnf.conf'')
+        0
+        os.system('sudo sh -c 'echo "defaultyes=True" >>/etc/dnf/dnf.conf'
     elif ch == 11:
         os.system('flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo')
     elif ch == 12:
