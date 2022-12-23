@@ -11,7 +11,7 @@ while (True):
     print("8) get whatsapp")
     print("9) get gradience")
     print("10) get extention manager")
-    print("11) get pika backup")
+    print("11) flatpak setup")
     print("12) Adw-gtk3 install")
     print("13) want em all")
     print("14) Exit")
@@ -39,7 +39,7 @@ while (True):
     elif ch == 10:
         os.system('flatpak install flathub com.github.GradienceTeam.Gradience')
     elif ch == 11:
-        os.system('flatpak install flathub org.gnome.World.PikaBackup')
+        os.system('flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo')
     elif ch == 12:
         os.system('sudo dnf copr enable nickavem/adw-gtk3')
         0
@@ -70,6 +70,8 @@ while (True):
         os.system('flatpak install flathub com.google.Chrome -y')
         0
         os.system('flatpak install flathub com.visualstudio.code -y')
+        0
+        os.system('flatpak install flathub com.usebottles.bottles -y')
     elif ch == 14:
         break
     else:
