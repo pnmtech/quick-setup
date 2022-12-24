@@ -9,7 +9,7 @@ while (True):
     
     ch = int(input("Enter Your Choice : "))
  
-    elif ch == 1:
+    if ch == 1:
         os.system('sudo dnf install gnome-tweaks')
         0
         os.system('sudo dnf install geary')
