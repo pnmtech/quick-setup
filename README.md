@@ -1,4 +1,2 @@
 # quick-install
-remember to have flatpak installed
-confirm that python is instaled
-remember python flat-stall.py
+this isa script ment to quickly setup a linux install,
