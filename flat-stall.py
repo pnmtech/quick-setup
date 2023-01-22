@@ -1,7 +1,7 @@
 import os
 while (True):
     print("1: dnf apps")
-    print("2: setup dnf")
+    print("2: setup base system")
     print("3: flatpak setup")
     print("4: Adw-gtk3 install")
     print("5: flatpak apps")
@@ -17,6 +17,10 @@ while (True):
         os.system('sudo dnf install CoreCtrl')
     elif ch == 2:
         os.system('sudo sh setup-dnf.sh')
+        0
+        os.system('sudo dnf install zsh')
+        0
+        os.system('sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"')
     elif ch == 3:
         os.system('flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo')
     elif ch == 4:
