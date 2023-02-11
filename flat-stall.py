@@ -1,7 +1,7 @@
 import os
 while (True):
     print("1: dnf apps")
-    print("2: setup base system")
+    print("2: setup base system(it will disable mitigations)")
     print("3: flatpak setup")
     print("4: Adw-gtk3 install")
     print("5: flatpak apps")
