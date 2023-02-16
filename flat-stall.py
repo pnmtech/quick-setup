@@ -10,15 +10,15 @@ while (True):
     ch = int(input("Enter Your Choice : "))
  
     if ch == 1:
-        os.system('sudo dnf install gnome-tweaks')
+        os.system('sudo dnf install gnome-tweaks -y')
         0
-        os.system('sudo dnf install geary')
+        os.system('sudo dnf install geary -y')
         0
-        os.system('sudo dnf install CoreCtrl')
+        os.system('sudo dnf install CoreCtrl -y')
     elif ch == 2:
         os.system('sudo sh setup-dnf.sh')
         0
-        os.system('sudo dnf install zsh')
+        os.system('sudo dnf install zsh -y')
         0
         os.system('sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"')
         0
