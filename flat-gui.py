@@ -67,11 +67,11 @@ class ButtonWindow(Gtk.Window):
         os.system('flatpak install flathub com.usebottles.bottles -y')
 
     def on_open_clicked(self, button):
-        os.system('sudo dnf install gnome-tweaks')
+        os.system('sudo dnf install gnome-tweaks -y')
         0
-        os.system('sudo dnf install geary')
+        os.system('sudo dnf install geary -y')
         0
-        os.system('sudo dnf install CoreCtrl')
+        os.system('sudo dnf install CoreCtrl -y')
 
     def on_close_clicked(self, button):
         os.system('sudo sh setup-dnf.sh')
