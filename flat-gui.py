@@ -107,7 +107,7 @@ class MainWindow(Gtk.ApplicationWindow):
         0
         os.system('flatpak install flathub com.github.GradienceTeam.Gradience -y')
         0    
-        os.system('flatpak install flathub com.raggesilver.BlackBox -y')
+        os.system('flatpak install flathub io.github.shiftey.Desktop -y')
         0
         os.system('flatpak install flathub io.github.mimbrero.WhatsAppDesktop -y')
         0
@@ -170,7 +170,7 @@ class MainWindow(Gtk.ApplicationWindow):
         0
         os.system('flatpak install flathub com.github.GradienceTeam.Gradience -y')
         0    
-        os.system('flatpak install flathub com.raggesilver.BlackBox -y')
+        os.system('flatpak install flathub io.github.shiftey.Desktop -y')
         0
         os.system('flatpak install flathub io.github.mimbrero.WhatsAppDesktop -y')
         0
