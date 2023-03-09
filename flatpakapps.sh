@@ -2,8 +2,6 @@ flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub org.openrgb.OpenRGB -y
 flatpak install flathub org.gnome.World.PikaBackup -y
 flatpak install flathub com.github.GradienceTeam.Gradience -y
-flatpak install flathub com.raggesilver.BlackBox -y
-flatpak install flathub io.github.mimbrero.WhatsAppDesktop -y
 flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub com.mattjakeman.ExtensionManager -y
 flatpak install flathub com.spotify.Client -y
