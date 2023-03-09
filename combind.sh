@@ -22,6 +22,6 @@ flatpak install flathub com.discordapp.Discord -y
 flatpak install flathub com.google.Chrome -y
 flatpak install flathub com.visualstudio.code -y
 flatpak install flathub com.usebottles.bottles -y
-sudo dnf install zsh
+sudo dnf install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 GRUB_CMDLINE_LINUX="mitigations=off"
