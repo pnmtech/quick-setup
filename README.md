@@ -4,4 +4,4 @@ i am a complete newbe how has no idea how to program so this is legitimately poo
 this only has my presonal preferencess so the app selection is very bias
 it also disables cpu mitigations
 move the contence of the file to the home dirctory before executing it.
-
+(curenently not functoning or organised)
